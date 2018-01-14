@@ -25,8 +25,11 @@
  * @since Accelerate Marketing 2.0
  */
 
+//CUSTOM POST TYPES FUNTION
+
 
 function create_custom_post_types() {
+    //create case study post types
     register_post_type( 'case_studies',
         array(
             'labels' => array(
@@ -38,6 +41,19 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+
+    //create about page services post types
+    register_post_type( 'about_us',
+        array(
+            'labels' => array(
+                'name' => __( 'About' ),
+                'singular_name' => __( 'About' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'about' ),
+        )
+    );    
 }
 add_action( 'init', 'create_custom_post_types' );
 

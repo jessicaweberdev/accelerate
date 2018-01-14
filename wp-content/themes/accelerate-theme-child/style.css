@@ -125,12 +125,7 @@ li span {
 	display: none;
 }
 
-/*.dashicons {
-	border-radius: 12em;
-	
-	font-size: 10em;
-} */
-	.menu-item i._mi {
+.menu-item i._mi {
     margin-top: -.265em;
     width: auto;
     height: auto;
@@ -139,4 +134,64 @@ li span {
     border-radius: 8em;
     background: #191919;
 	color: #ffffff;
+}
+
+
+/* CONTACT PAGE STYLES */
+
+.main-content h2, p {
+	width: 75%;
+	margin: auto;
+}
+
+	.main-content p {
+		margin-bottom: 50px;
+		font-size: 16px;
+		color: #909090;
+	}	
+	.main-content h2 {
+		font-size: 1.5em;
 	}
+
+#nf-form-1-cont {
+	width: 75%;
+	margin: auto;
+}
+
+.nf-error-msg, .ninja-forms-req-symbol, .nf-form-fields-required{
+	display: none;
+}
+
+#nf-field-1-container, #nf-field-2-container{
+	float: left;
+	width: 45%;
+	clear: none;
+
+}
+
+#nf-field-2-container{
+	float: right;
+	width: 45%;
+	clear: none;
+	
+}
+
+.nf-field-container {
+	clear: both;
+}
+
+#nf-field-4{
+	float: right;
+    background-color: #45ac9d;
+}
+
+label {
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+/* ABOUT PAGE STYLES  */
+
+.service-images {
+	display: inline;
+}
