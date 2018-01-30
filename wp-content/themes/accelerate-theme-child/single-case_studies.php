@@ -30,10 +30,10 @@ get_header(); ?>
 		
 					<?php the_content(); ?>
 
-					<p><stong><a href="<?php echo $link; ?>">Site Link</a></stong></p>
+					<p><strong id="case-study-site-link"><a href="<?php echo $link; ?>">Site Link</a></strong></p>
 				</aside>
 
-				<div class="case-study-images">
+				<div id="case-study-images">
 					<?php if($image_1) {
 						echo wp_get_attachment_image($image_1, $size);
 					} ?>

@@ -23,6 +23,7 @@
 
 .button {
 	background: #45ac9d;
+	margin: auto;
 }
 
 .blog-post {
@@ -98,6 +99,12 @@ aside.case-study-sidebar {
 		font-weight: 300;
 	}
 
+/*	aside.case-study-sidebar#case-study-site-link strong{
+		font-weight: 700;
+	    color: #45ac9d;
+	    text-transform: uppercase;
+	} COME BACK TO LATER TO STYLE RIGHT*/
+
 div.case-study-images {
 	float: left;
 	width: 600px;
@@ -139,9 +146,9 @@ li span {
 
 /* CONTACT PAGE STYLES */
 
-.main-content h2, p {
+/*.main-content h2, p {
 	width: 75%;
-	margin: auto;
+	margin: auto;*/
 }
 
 	.main-content p {
@@ -192,6 +199,54 @@ label {
 
 /* ABOUT PAGE STYLES  */
 
-.service-images {
-	display: inline;
+/*.main-content {
+	width: 75%;
+	margin: auto;
+}*/
+
+.about-hero-text h1 {
+	font-size: 1.25em;
+    width: 60%;
+    margin: auto;
+    color: #ffffff;
 }
+
+/*.our-services-header h5, h6{
+	margin: auto;
+	width: 35%;
+	text-align: center;*/
+
+}
+	.our-services-header h5 {
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: .75em;
+	}
+	.our-services-header h6 {
+		font-size: .75em;
+		font-weight: 400;
+		color: #909090;
+	}
+
+.service-1, .service-2, .service-3, .service-4 {
+	margin-bottom: 45px;
+	clear: both;
+}
+	.service-images {
+		width: 18%;
+		float: left;
+		margin: 0 0 0 0;
+	}
+	.services-text-right, .services-text-left {
+		width: 75%;
+		float: left;
+		margin: 35px 20px 35px 20px;
+	}
+
+.call-to-action {
+	border-top: 1px solid #bfbfbf;
+}
+	/*.call-to-action h2, a {
+		margin: 45px 0px 20px 0;
+		/*float: left;  */
+/*		text-align: center;*/
