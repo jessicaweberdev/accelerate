@@ -123,6 +123,7 @@ div.case-study-images img {
 }
 
 /* FOOTER STYLES */
+
 ul {
 	list-style: none;
 	display: inline-flex;
@@ -199,10 +200,11 @@ label {
 
 /* ABOUT PAGE STYLES  */
 
-/*.main-content {
-	width: 75%;
-	margin: auto;
-}*/
+.about-content {
+   width: 90%;
+   max-width: 960px;
+   margin: 0 auto;
+  }
 
 .about-hero-text h1 {
 	font-size: 1.25em;
@@ -211,10 +213,10 @@ label {
     color: #ffffff;
 }
 
-/*.our-services-header h5, h6{
+.our-services-header h5, h6{
 	margin: auto;
 	width: 35%;
-	text-align: center;*/
+	text-align: center;
 
 }
 	.our-services-header h5 {
@@ -246,7 +248,12 @@ label {
 .call-to-action {
 	border-top: 1px solid #bfbfbf;
 }
-	/*.call-to-action h2, a {
-		margin: 45px 0px 20px 0;
-		/*float: left;  */
-/*		text-align: center;*/
+	.call-to-action-header, .call-to-action-button{
+		margin: 45px 20px 30px 100px;
+		float: left;
+		text-align: center;
+	}
+
+
+
+

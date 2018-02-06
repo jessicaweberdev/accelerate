@@ -46,7 +46,7 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
-	<div class="main-content">
+	<div class="about-content">
 		<section class="our-services-header">
 			<h5><?php echo $services_headline; ?></h5>
 			<h6><?php echo $services_subtitle; ?></h6>
@@ -97,7 +97,7 @@ get_header(); ?>
 
 		<section class="call-to-action clearfix">
 			<h2 class="call-to-action-header">Interested in working work us?</h2>
-			<a class="button" href="<?php echo site_url('#') ?>">Contact Us</a>
+			<a class="button call-to-action-button" href="<?php echo site_url('#') ?>">Contact Us</a>
 		</section>
 	</div>
 
