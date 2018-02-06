@@ -255,5 +255,38 @@ label {
 	}
 
 
+/*	404 STYLES */
 
+.error-content {
+	width: 80%;
+	margin: auto;
+	display: flex;
 
+}
+	.error-img, .error-right {
+		float: left;
+		margin-right: 25px;
+		align-items: top;
+		flex: 1;
+	}
+		.error-img {
+			width: 20%;
+			height: auto;
+		}
+		.error-right {
+			width: 70%;
+			margin-top: 0;
+			padding-top: 0;
+		}
+			.error-header {
+				color: #45ac9d;
+				font-size: 1.25em;
+			}
+			.error-text p{
+				color: #909090;
+				font-size: 1.15em;
+			}
+				.error-link span {
+					color: #45ac9d;
+					font-weight: 700;
+				}
