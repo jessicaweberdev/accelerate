@@ -25,6 +25,18 @@
  * @since Accelerate Marketing 2.0
  */
 
+
+//ENQUEUE SCRIPTS AND STYLES
+
+function accelerate_child_scripts(){
+    wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' ));
+    wp_enqueue_style('accelerate-child-google-fonts', '//fonts.googleapis.com/css?family=Londrina+Solid:400,900');
+
+}
+add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts', 'accelerate-child-google-fonts');
+
+
 //CUSTOM POST TYPES FUNTION
 
 
@@ -46,12 +58,10 @@ function create_custom_post_types() {
     register_post_type( 'about_us',
         array(
             'labels' => array(
-                'name' => __( 'About' ),
-                'singular_name' => __( 'About' )
+                'name' => __( 'About Us' ),
+                'singular_name' => __( 'About Us' )
             ),
             'public' => true,
-            'has_archive' => true,
-            'rewrite' => array( 'slug' => 'about' ),
         )
     );    
 }

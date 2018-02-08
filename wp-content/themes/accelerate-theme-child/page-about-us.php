@@ -22,7 +22,8 @@ get_header(); ?>
 				$service_image_1 = get_field('service_image_1');
 				$service_image_2 = get_field('service_image_2');
 				$service_image_3 = get_field('service_image_3');
-				$service_image_4 = get_field('service_image_4');
+				$service_image_4 = get_field('
+					service_image_4');
 				$service_1 = get_field('service_1');
 				$service_2 = get_field('service_2');
 				$service_3 = get_field('service_3');
@@ -35,12 +36,11 @@ get_header(); ?>
 				$size = "full"; ?>
 
 				<?php the_content(); ?>
-				
+
 					<div class="about-hero-text">
 						<h1><?php echo $hero_text; ?></h1>
 					</div>
-				
-				
+
 			<?php endwhile; // end of the loop. ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
@@ -102,3 +102,6 @@ get_header(); ?>
 	</div>
 
 <?php get_footer(); ?>
+
+
+

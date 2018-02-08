@@ -260,19 +260,16 @@ label {
 .error-content {
 	width: 80%;
 	margin: auto;
-	display: flex;
-
 }
 	.error-img, .error-right {
 		float: left;
 		margin-right: 25px;
 		align-items: top;
-		flex: 1;
 	}
 		.error-img {
-			width: 20%;
-			height: auto;
-		}
+			width: 23%;
+			margin-top: 2em;
+			}
 		.error-right {
 			width: 70%;
 			margin-top: 0;
@@ -282,6 +279,10 @@ label {
 				color: #45ac9d;
 				font-size: 1.25em;
 			}
+				.error-header h1 {
+					margin: 0;
+					font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+				}
 			.error-text p{
 				color: #909090;
 				font-size: 1.15em;
