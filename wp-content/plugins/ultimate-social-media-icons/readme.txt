@@ -2,8 +2,8 @@
 Contributors: socialdude
 Tags: social media, share, buttons, social, icons, share icons, share buttons, sharing icons, sharing buttons, social share, sharing, social sharing
 Requires at least: 2.8
-Tested up to: 4.9
-Stable tag: 1.8.2
+Tested up to: 4.9.2
+Stable tag: 1.8.3
 License: GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -266,6 +266,9 @@ You cannot use the same plugin twice, however you can install both the USM as we
 
 
 == Changelog ==
+
+= 1.8.3 =
+* Saving of links for custom icons sometimes didn't work. Fixed now. 
 
 = 1.8.2 =
 * Links updated
@@ -646,5 +649,5 @@ You cannot use the same plugin twice, however you can install both the USM as we
 
 == Upgrade Notice ==
 
-= 1.8.2 =
+= 1.8.3 =
 Please upgrade

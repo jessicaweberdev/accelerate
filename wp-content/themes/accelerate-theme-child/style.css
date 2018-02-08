@@ -26,13 +26,14 @@
 	margin: auto;
 }
 
-.blog-post {
-	width: 50%;
+.blog-post, .twitter-posts {
+	width: 45%;
 	float: left;
 	margin-bottom: 2em;
+	margin-right: 20px;
 }
 
-	.blog-post h4 {
+	.blog-post h4, .twitter-posts h4 {
 		font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 		color: #a6a6a6;
 		text-transform: uppercase;
@@ -43,7 +44,7 @@
 		font-size: 1.5em;
 	}
 
-	.read-more-link {
+	.read-more-link, .twitter-follow-link {
 		font-family: 'Montserrat';
 		font-weight: 700;
 		color: #45ac9d;
@@ -291,3 +292,39 @@ label {
 					color: #45ac9d;
 					font-weight: 700;
 				}
+
+/*	BLOG SIDEBAR */
+
+#sidebar ul {
+	display: inline-block;
+
+}
+.mc4wp-form-fields input[type="email"] {
+    width: 79%;
+    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+    font-style: italic;
+    border-top: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    border-left: 1px solid #a6a6a6;
+    border-right: none;
+    height: 2.6rem;
+    padding: .5em;
+    vertical-align: middle;
+}
+
+.mc4wp-form-fields input[type="submit"] {
+    width: 13%;
+    border-top: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    border-right: 1px solid #a6a6a6;
+    border-left: none;
+    font: .875em/1.75em 'Open Sans', Arial, sans-serif;
+    height: 2.6rem;
+    background: url(img/white-arrow-right.png) no-repeat center #45ac9d;
+    color: #ffffff;
+    margin-left: -5px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+
