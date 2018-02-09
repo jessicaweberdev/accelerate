@@ -55,15 +55,15 @@ function create_custom_post_types() {
     );
 
     //create about page services post types
-    register_post_type( 'about_us',
-        array(
-            'labels' => array(
-                'name' => __( 'About Us' ),
-                'singular_name' => __( 'About Us' )
-            ),
-            'public' => true,
-        )
-    );    
+    // register_post_type( 'about_us',
+    //     array(
+    //         'labels' => array(
+    //             'name' => __( 'About Us' ),
+    //             'singular_name' => __( 'About Us' )
+    //         ),
+    //         'public' => true,
+    //     )
+    // );    
 }
 add_action( 'init', 'create_custom_post_types' );
 
