@@ -89,7 +89,7 @@ get_header(); ?>
 					<p><?php echo $service_description_4 ?></p>
 				</div>
 				<div id="service-image-4" class="service-images">
-					<?php echo wp_get_attachment_image($service_image_4, $size);?>
+				<?php echo wp_get_attachment_image(47386, $size); ?>
 				</div>
 			</section>
 		</section>
